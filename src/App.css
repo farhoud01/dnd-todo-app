@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+    @media (max-width:767px) {
+        .sm-flex-col-rev{
+          flex-direction: column-reverse;
+        }
+        .sm-flex-col{
+          flex-direction: column
+        }
+        .sm-ml-0{
+          margin-left: 0;
+          margin-top: 56px;
+          
+        }
+        .sm-gap-2{
+          gap:8px
+        }
+        .sm-shrink{
+          flex-shrink: 1;
+        }
+        .sm-h-50{
+          height: 50%;
+        }
+    }
